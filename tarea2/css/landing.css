@@ -1,0 +1,12 @@
+.container1{
+    padding-top: 300px;
+    position: relative;
+}
+
+
+.intro{
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
