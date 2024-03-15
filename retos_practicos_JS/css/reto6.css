@@ -1,0 +1,16 @@
+.ImgCenter{
+    align-items: center;
+    height: 30%;
+    width: 30%;
+}
+
+.ImgCenterRow{
+    align-items: center;
+}
+
+.btnColors{
+    padding: 15px;
+    border: none;
+    margin: 15px;
+    border-radius: 50%;
+}

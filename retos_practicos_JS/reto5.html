@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reto 5</title>
+    <link rel="icon" type="image/jpg" href="imagenes/favicon.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/reto5.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+
+    <header class="header">
+      <section id="nav_bar">
+          <nav class="navbar navbar-expand-lg navbar-scrolled">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="imagenes/retospracticoslogo.png" alt="cafe azul logo" width="235" height="60">
+              </a>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cafe Azul</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active mx-lg-2" aria-current="page" href="index.html">Homepage</a>
+                    </li>
+                  </ul>
+                  </li>
+                  </ul>
+                </div>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+        </section>
+  </header>
+
+  <div style="background: url(imagenes/porsche1.jpg)" id="intro" class="bg-image shadow-2-strong background1_1">
+    <div class="mask1">
+      <div class="container d-flex align-items-center justify-content-left h-100">
+        <div class="text-white" data-mdb-theme="dark">
+          <h1 class="display-1 mb-3">Impulsados por sueños</h1>
+          <p class="lead">El icónico deportivo con motor trasero y prestaciones excepcionales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<section class="container">
+  <div class="container marketing">
+    <div class="row featurette pt-5">
+    <div class="row">
+      <div class="col-sm-5 col-md-5 col-lg-5">
+          <div class="inputs pt-4">
+              <h2 class="pb-3">Seleccione el vehículo</h2>
+              <p>*Ambos campos deben ser iguales para que el sistema funcione, de lo contrario no desplegara informacion</p>
+              <h4>Modelo</h4>
+              <select name="modelo" id="modelo" class="form-select">
+                  <option selected disabled>Seleccione un modelo</option>
+                  <option>911 Carrera</option>
+                  <option>911 Carrera Cabriolet</option>
+                  <option>911 Targa 4</option>
+                  <option>911 Turbo</option>
+                  <option>911 GT3</option>
+                  <option>911 Dakar</option>
+                  <option>911 GT3 RS</option>
+              </select>
+              <div class="pt-3"></div>
+              <h4>Versión</h4>
+              <select name="version" id="version" class="form-select">
+                  <option selected disabled>Seleccione una versión</option>
+                  <option>911 Carrera</option>
+                  <option>911 Carrera Cabriolet</option>
+                  <option>911 Targa 4</option>
+                  <option>911 Turbo</option>
+                  <option>911 GT3</option>
+                  <option>911 Dakar</option>
+                  <option>911 GT3 RS</option>
+              </select>
+              <div class="pt-5">
+                  <button class="btn btn-secondary btn-lg px-4 mt-3" onclick="calcular()">Calcular</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-7 col-md-7 col-lg-7">
+          <div class="text-center logo2 pt-5">
+              <img src="imagenes/porsche_banner.jpg" class="img-fluid" width="460" height="256" alt="Vehiculo" id="imagen">
+          </div>
+      </div>
+  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 pt-5">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img src="imagenes/md-logo.png" alt="logo 1" height="30" width="30">
+          </a>
+          <span class="mb-3 mb-md-0 footertext text-dark">&copy; 2024 Matamoros Design</span>
+        </div>
+      </footer>
+    </div>
+    <script src="js/reto5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </body>
+</html>

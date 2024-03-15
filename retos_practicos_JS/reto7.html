@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reto 7</title>
+    <link rel="icon" type="image/jpg" href="imagenes/favicon.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+    <header class="header">
+      <section id="nav_bar">
+          <nav class="navbar navbar-expand-lg navbar-scrolled">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="imagenes/retospracticoslogo.png" alt="cafe azul logo" width="235" height="60">
+              </a>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cafe Azul</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active mx-lg-2" aria-current="page" href="index.html">Homepage</a>
+                    </li>
+                  </ul>
+                  </li>
+                  </ul>
+                </div>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+        </section>
+  </header>
+
+  <section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="display-1">LMGT3</h1>
+                <p class="lead">La nueva clase GT para 2024 se basará en la plataforma técnica GT3 existente de la FIA y se centrará en conductores "Gentlemen" y equipos privados. LMGT3 reemplazará a los autos construidos según las regulaciones técnicas LMGTE que han estado en la parrilla del WEC desde la temporada inaugural de la serie en 2012.</p>
+            </div>
+            <div class="col-md-6 text-center pt-5">
+                <img src="imagenes/map1.jpg" usemap="#image-map" class="img-fluid" alt="Chevrolet Corvette Z06 GT3.R LMGT3" width="120%" height="120%"> 
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <map name="image-map">
+    <area alt="Clickea aqui" title="Clickea aqui" coords="186,712,21" id="r0" shape="circle">
+    <area alt="Clickea aqui" title="Clickea aqui" coords="222,375,20" id="r1" shape="circle">
+    <area target="_blank" alt="Clickea aqui" title="Clickea aqui" href="https://www.youtube.com/watch?v=Nmmy6-kIn84" coords="628,465,19" shape="circle">
+    <area alt="Clickea aqui" title="Clickea aqui" coords="849,649,18" id="r2" shape="circle">
+</map>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 pt-5">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img src="imagenes/md-logo.png" alt="logo 1" height="30" width="30">
+          </a>
+          <span class="mb-3 mb-md-0 footertext text-dark">&copy; 2024 Matamoros Design</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+    
+    <script src="js/reto7.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+  </body>
+</html>
